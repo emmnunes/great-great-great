@@ -39,7 +39,7 @@ const AudioPlayer = forwardRef((props: Props, ref) => {
   })
 
   return (
-    <div>
+    <div style={{opacity: 0}}>
       <audio controls ref={audioRef} loop>
         <source src={newSrc} ref={sourceRef} />
       </audio>
