@@ -52,7 +52,7 @@ const Home: NextPage = () => {
           buttonLabel="Let’s try it"
         >
           <p>
-            Have you ever wished you could have a conversation with someone from the past? Me too. So I've created a chatbot that lets you talk to your ancestors. Sort of.
+            Have you ever wished you could have a conversation with someone from the past? Me too. So I’ve created a chatbot that lets you talk to your ancestors. Sort of.
           </p>
         </Popup>
 
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
           </p>
 
           <p>
-            <small>By continuing, you agree to this website's <a href="/legal/terms-of-use" target="_blank">Terms of Use</a> and <a href="/legal/privacy-policy" target="_blank">Privacy Policy</a>.</small>
+            <small>By continuing, you agree to this website’s <a href="/legal/terms-of-use" target="_blank">Terms of Use</a> and <a href="/legal/privacy-policy" target="_blank">Privacy Policy</a>.</small>
           </p>
         </Popup>
       </Container>
