@@ -20,7 +20,7 @@ export default async function handler(req, res) {
           res.status(error.response.status).json({
             result: {
               title: `Something went wrong...`,
-              description: `There was an issue getting in touch with your ancestors. I'm not yet sure what happened, but will look into it. In the meantime, you can click below to try again. (Error ${error.response.status}: ${error.response.statusText})`,
+              description: `There was an issue getting in touch with your ancestors. I’m not yet sure what happened, but will look into it. In the meantime, you can click below to try again. (Error ${error.response.status}: ${error.response.statusText})`,
               link: `/start`
             }
           })
@@ -38,7 +38,7 @@ export default async function handler(req, res) {
       res.status(413).json({
         result: {
           title: `Time is fleeting...`,
-          description: `I'm incredibly happy that you found this small chatbot interesting enough to keep the conversation going. Unfortunately, this website is but a small experiment, built in my spare time and with my own money. It is not for profit, and it’s powered by a couple of fairly expensive APIs, so I unfortunately can’t afford to let conversations run too long. I hope you understand, and that you enjoyed the experience.`,
+          description: `I’m incredibly happy that you found this small chatbot interesting enough to keep the conversation going. Unfortunately, this website is but a small experiment, built in my spare time and with my own money. It is not for profit, and it’s powered by a couple of fairly expensive APIs, so I unfortunately can’t afford to let conversations run too long. I hope you understand, and that you enjoyed the experience.`,
           link: `/outro`
         }
       })

@@ -10,7 +10,7 @@ const sanitizeResponses = (response: string) => {
 
   for (let key of aiGiveaways) {
     if (response.toUpperCase().includes(key)) {
-      output = "I'm sorry my dear, I'm not sure what to tell you... Could you rephrase your question?"
+      output = "I’m sorry my dear, I’m not sure what to tell you... Could you rephrase your question?"
       break;
     }
   }

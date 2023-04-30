@@ -671,14 +671,14 @@ const Output = styled.section`
   p {
     color: ${({ theme }) => theme.colors.night};
     width: 90vw;
-    font-size: 3vw;
-    font-size: clamp(24px, 3vw, 54px);
+    font-size: 2.5vw;
+    font-size: clamp(24px, 2.5vw, 54px);
     max-width: 50ch;
     margin: 0 auto 1.2em auto;
-    line-height: 1.4;
+    line-height: 1.36;
 
     span {
-      line-height: 1.333;
+      line-height: 1;
     }
   }
 `
