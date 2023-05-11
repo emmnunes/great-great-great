@@ -45,7 +45,7 @@ const Outro: NextPage = () => {
           </p>
 
           <p>
-            If you're interested in knowing more about the motivation and inner workings of this project, you can find <a href="https://www.undersight.co" target="_blank">a small case study on my website</a>.
+            If you're interested in knowing more about the motivation and inner workings of this project, you can find <a href="https://www.undersight.co/great-great-great/" target="_blank">a small case study on my website</a>.
           </p>
 
           <p>

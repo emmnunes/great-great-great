@@ -82,6 +82,16 @@ const App = ({ Component, pageProps }) => {
         <meta name="twitter:description" content="Ever wished you could have a conversation with someone from the past? This chatbot lets you talk to your ancestors. Sort of." />
         <meta name="twitter:image" content="/imgs/01.jpg" />
 
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#f5f485" />
+        <meta name="apple-mobile-web-app-title" content="Great Great Great" />
+        <meta name="application-name" content="Great Great Great" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+
         <link rel="preload" href="/fonts/Triptych-Roman.woff" as="font" type="font/woff" crossOrigin="" />
         <link rel="preload" href="/fonts/Triptych-Grotesque.woff" as="font" type="font/woff2" crossOrigin="" />
         <link rel="preload" href="/fonts/Triptych-Italick.woff" as="font" type="font/woff" crossOrigin="" />
