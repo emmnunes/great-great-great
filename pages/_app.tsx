@@ -8,6 +8,7 @@ import { AnimatePresence } from 'framer-motion'
 import Context from "../context/context"
 import Background from "./components/Background"
 import Loading from "./components/Loading"
+import Footer from "./components/Footer"
 
 import theme from "../theme"
 
@@ -16,6 +17,7 @@ const App = ({ Component, pageProps }) => {
   const [variant, setVariant] = React.useState<string>("hidden")
   const [faders, setFaders] = React.useState<string>("none")
   const [showCanvas, setShowCanvas] = React.useState<boolean>(true)
+  const [showFooter, setShowFooter] = React.useState<boolean>(false)
 
   const handleVariant = (pathname: string) => {
     if (
@@ -36,6 +38,11 @@ const App = ({ Component, pageProps }) => {
       setFaders("top")
     else
       setFaders("none")
+
+    if (pathname === "/outro"
+      || pathname === "/chat"
+    ) setShowFooter(false)
+    else setShowFooter(true)
   }
 
   useEffect(() => {
@@ -109,6 +116,10 @@ const App = ({ Component, pageProps }) => {
           </AnimatePresence>
 
           <Analytics />
+
+          <AnimatePresence>
+            {showFooter && <Footer />}
+          </AnimatePresence>
 
         </ThemeProvider>
       </Context>
