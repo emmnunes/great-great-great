@@ -4,7 +4,7 @@ const PrivacyPolicy = () => {
   return (
     <>
       <h1>Privacy Policy</h1>
-      <p>Last updated: May 1st 2023</p>
+      <p>Last updated: May 12th 2023</p>
 
       <p>
         This privacy notice for Undersight Unipessoal, Lda. ("Undersight," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you:
@@ -89,10 +89,6 @@ const PrivacyPolicy = () => {
 
       <p>
         We automatically collect certain information when you visit, use, or navigate the Services. This information does not reveal your specific identity (like your name or contact information) but may include device and usage information, such as your IP address, browser and device characteristics, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Services, and other technical information. This information is primarily needed to maintain the security and operation of our Services, and for our internal analytics and reporting purposes. Your country and year of birth, when provided, are <em>never</em> stored, nor cross-referenced with any other data collected.
-      </p>
-
-      <p>
-        Like many businesses, we also collect information through cookies and similar technologies.
       </p>
 
       <p>
@@ -232,11 +228,11 @@ const PrivacyPolicy = () => {
       </h2>
 
       <p>
-        In Short: We may use cookies and other tracking technologies to collect and store your information.
+        In Short: We do not currently use cookies to collect or store your information.
       </p>
 
       <p>
-        We may use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies is set out in our Cookie Notice.
+        We may, in the future, use cookies and similar tracking technologies (like web beacons and pixels) to access or store information. Specific information about how we use such technologies and how you can refuse certain cookies will be displayed on this page and in a Cookie Notice.
       </p>
 
       <h2>

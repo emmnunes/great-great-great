@@ -12,7 +12,9 @@ export default async function handler(req, res) {
         const completion = await openai.createChatCompletion({
           model: `gpt-3.5-turbo`,
           user: req.body.user,
-          messages: req.body.messages
+          messages: req.body.messages,
+          max_tokens: 1000,
+          temperature: 0.8
         })
         res.status(200).json({ result: completion.data })
       } catch (error) {

@@ -70,7 +70,7 @@ const Home: NextPage = () => {
           </p>
 
           <p>
-            <small>By continuing, you agree to this website’s <a href="/legal/terms-of-use" target="_blank">Terms of Use</a> and <a href="/legal/privacy-policy" target="_blank">Privacy Policy</a>.</small>
+            <small>By continuing, you agree to the <a href="/legal/terms-of-use" target="_blank">Terms of Use</a> and <a href="/legal/privacy-policy" target="_blank">Privacy Policy</a>.</small>
           </p>
         </Popup>
       </Container>

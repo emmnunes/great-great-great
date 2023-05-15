@@ -39,10 +39,10 @@ const App = ({ Component, pageProps }) => {
     else
       setFaders("none")
 
-    if (pathname === "/outro"
-      || pathname === "/chat"
-    ) setShowFooter(false)
-    else setShowFooter(true)
+    if (pathname === "/"
+      || pathname === "/start"
+    ) setShowFooter(true)
+    else setShowFooter(false)
   }
 
   useEffect(() => {

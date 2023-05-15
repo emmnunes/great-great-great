@@ -135,7 +135,6 @@ const Container = styled(motion.section).attrs(() => ({
     font-size: 3vw;
     font-size: clamp(18px, 3vw, 32px);
     max-width: 36ch;
-    color: ${({ theme }) => theme.colors.blue};
     margin: 0;
 
     & + p {
@@ -177,8 +176,9 @@ const Container = styled(motion.section).attrs(() => ({
   &.color--white {
     ${PopupBackground} {
       background: ${({ theme }) => theme.colors.white};
-      color: ${({ theme }) => theme.colors.night};
     }
+
+    color: ${({ theme }) => theme.colors.night};
   }
 
   &.color--milan {
