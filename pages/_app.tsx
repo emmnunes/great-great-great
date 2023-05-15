@@ -74,20 +74,20 @@ const App = ({ Component, pageProps }) => {
 
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Ever wished you could have a conversation with someone from the past? This chatbot lets you talk to your ancestors. Sort of." />
+        <meta name="description" content="Ever wished you could have a conversation with someone from the past? This website lets you talk to your ancestors. Sort of." />
 
         <meta property="og:title" content="Great Great Great" />
-        <meta property="og:description" content="Ever wished you could have a conversation with someone from the past? This chatbot lets you talk to your ancestors. Sort of." />
+        <meta property="og:description" content="Ever wished you could have a conversation with someone from the past? This website lets you talk to your ancestors. Sort of." />
         <meta property="og:url" content="https://www.great-great-great.com/" />
-        <meta property="og:image" content="/imgs/01.jpg" />
+        <meta property="og:image" content="/og.png" />
         <meta property="og:locale" content="en" />
         <meta property="og:site_name" content="Great Great Great" />
         <meta property="og:type" content="website" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Great Great Great" />
-        <meta name="twitter:description" content="Ever wished you could have a conversation with someone from the past? This chatbot lets you talk to your ancestors. Sort of." />
-        <meta name="twitter:image" content="/imgs/01.jpg" />
+        <meta name="twitter:description" content="Ever wished you could have a conversation with someone from the past? This website lets you talk to your ancestors. Sort of." />
+        <meta name="twitter:image" content="/og.png" />
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
