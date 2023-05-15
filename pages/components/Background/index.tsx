@@ -350,7 +350,7 @@ const Heading1 = styled(motion.h1).attrs(() => ({
       y: "-300%",
       transition: {
         duration: 1.5,
-        delay: 1,
+        delay: 2,
         ease: [0.645, 0.045, 0.355, 1.000]
       }
     },
@@ -450,7 +450,7 @@ const Heading3 = styled(motion.h1).attrs(() => ({
       y: "150%",
       transition: {
         duration: 1.5,
-        delay: 2,
+        delay: 1,
         ease: [0.645, 0.045, 0.355, 1.000]
       }
     },

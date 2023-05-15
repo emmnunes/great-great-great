@@ -44,11 +44,6 @@ const Legal = styled.ul`
   padding: 0;
   gap: ${rem(10)};
 
-  @media ${({ theme }) => theme.mq.mobileDown} {
-    left: ${rem(10)};
-    bottom: ${rem(10)};
-  }
-
   li {
     ${({ theme }) => theme.fonts.set(`secondary`, `normal`)}
     font-variation-settings: 'wght' 550;
