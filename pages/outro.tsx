@@ -50,7 +50,7 @@ const Outro: NextPage = () => {
 
           <p>
             <small>
-              Built with with Next.js and ChatGPT 3.5-turbo. Text set in <a href="https://thepytefoundry.net/typefaces/triptych/" target="_blank">Pyte Foundry's Triptych</a>. Photos generated using <a href="https://www.midjourney.com/" target="_blank">Midjourney</a>. Background music adapted from samples by <a href="https://tobyschay.bandcamp.com/" target="_blank">Toby Schay</a>. Be sure to read the <a href="/legal/terms-of-use" target="_blank">Terms of Use</a> and <a href="/legal/privacy-policy" target="_blank">Privacy Policy</a>.
+              Built with with Next.js and ChatGPT 4. Text set in <a href="https://thepytefoundry.net/typefaces/triptych/" target="_blank">Pyte Foundry's Triptych</a>. Photos generated using <a href="https://www.midjourney.com/" target="_blank">Midjourney</a>. Background music adapted from samples by <a href="https://tobyschay.bandcamp.com/" target="_blank">Toby Schay</a>. Be sure to read the <a href="/legal/terms-of-use" target="_blank">Terms of Use</a> and <a href="/legal/privacy-policy" target="_blank">Privacy Policy</a>.
             </small>
           </p>
 

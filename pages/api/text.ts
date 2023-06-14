@@ -10,7 +10,7 @@ export default async function handler(req, res) {
     if(req.body.messages.length < 30) {
       try {
         const completion = await openai.createChatCompletion({
-          model: `gpt-3.5-turbo`,
+          model: `gpt-3.5-turbo-0613`,
           user: req.body.user,
           messages: req.body.messages,
           max_tokens: 1000,
